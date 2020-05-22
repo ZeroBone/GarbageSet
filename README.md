@@ -15,3 +15,11 @@ The following table gives an overview of what the datastructure is capable of. A
 # Space complexity
 
 The space complexity of the data structure is in `O(n)`. However, apart from storing the payload array itself the data structure requires additional space for redundancy checking purposes. This additional space is about `2*n*sizeof(index_t)` bytes where n is the capacity and `index_t` is the type used for indexes. With this user-defined you can easily reduce the memory overhead.
+
+# License
+
+This software is licensed under the terms of the MIT License.
+
+Copyright (c) 2020 Alexander Mayorov
+
+For more details see the `LICENSE` file.
